@@ -6,3 +6,6 @@ Selamat datang di repositori saya! Di sini, Anda akan menemukan rekap belajar sa
 - 🐍 Python
 - ☕ Java
 
+## 📖 Materi
+- OOP (Pertemuan 1 - 7 )
+- Functional (Pertemuan 9 - 14)
