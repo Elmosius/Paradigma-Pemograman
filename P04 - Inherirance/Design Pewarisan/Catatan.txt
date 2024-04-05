@@ -1,0 +1,38 @@
+﻿EJC Team
+* Elmosius Suli - 2272008
+* Christopher Wijaya - 2272016
+* Joseph Adiwiguna - 2272020
+* Joshua Subianto - 2272002
+
+
+Latihan 1
+* Pada Kelas Hewan memiliki warisan tambahan (Inheritance), yaitu Kelas Mamalia. Dari kelas tersebut diwariskan (Inheritance) lagi kepada Jerapah, Beruang, Gajah. 
+* Pada Kelas Hewan juga memiliki aturan asosiasi Composition (Aggregation) dengan kelas Habitat sehingga bisa dimaknai jika hewan tidak ada habitat akan tetap ada, lalu kelas habitat ini dibagi lagi menjadi dua (relasi warisan, Inheritance) kelas Alam dan Buatan. Lalu dilanjutkan dengan kelas Buatan memiliki relasi warisan Kelas Kebun Binatang yang memiliki banyak relasi baik Associations dan Composition (Aggregation).
+* Untuk relasi Composition (Aggregation) dari kebun binatang terdapat Kelas Tiket Masuk dimana jika Kelas Tiket Masuk tidak ada kebun binatang akan tetap ada sehingga ditambahkan relasi Composition. Lalu ada relasi lagi Tiket Masuk dengan kelas Pengunjung (bisa dimaknai setiap ada tiket masuk yang terjual berarti ada pengunjung)
+* Terjadi penambahan kelas turunan (Inheritance) pada kelas atraksi yaitu kelas Atraksi Lumba-Lumba, kelas Memberi Makan Hewan Buas, dan kelas Menunggangi Hewan.
+* Terdapat penambahan kelas abstrak (abstract class) yaitu kelas fasilitas agar terhubung dengan kelas turunan (Inheritance) yaitu kelas Kandang, kelas Makanan Hewan, dan kelas Atraksi.
+* Relasi yang terjadi antara Kebun Binatang dengan Fasilitas adalah Composition karena kedua hal tersebut saling bergantung terhadap satu sama lain. Dan relasi yang terjadi antara Kebun Binatang dan Manusia adalah Aggregation karena kedua hal tersebut dapat berdiri secara independen tanpa memperdulikan satu sama lain.  
+
+
+        Class tambahan:
+* Habitat
+* Mamalia
+* Alam 
+* Buatan
+* Fasilitas
+* Owner
+* AtraksiLumbaLumba
+* MemberiMakanHewanBuas
+* MenunggangiHewan  
+
+
+Latihan 2
+* Terdapat penambahan kelas (Inheritance) yaitu kelas Makhluk Hidup. Yang dimana kelas tersebut diwariskan ke kelas Manusia. 
+* Untuk kelas Composition(Aggregation) dari kelas Ruangan  terdapat kelas RuangLab dan kelas RuangKelas, yang dimana jika kelas RuangLab dan kelas RuangKelas tidak ada bukan berarti Ruangan itu tidak ada.
+* Untuk kelas Composition(Aggregation) dari kelas MataKuliah terdapat kelas JadwalKelas, dan dari kelas JadwalKelas terdapat  Composition(Aggregation) lagi terdapat kelas Ruangan.
+* Untuk kelas Composition(Aggregation) dari kelas DKBS terdapat kelas TranskripNilai, yang dimana jika kelas TranskripNilai tidak ada, maka kelas DKBS juga tidak ada.
+
+
+        Class tambahan:
+* Ruangan
+* Makhluk Hidup
