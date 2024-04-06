@@ -7,5 +7,5 @@ Selamat datang di repositori saya! Di sini, Anda akan menemukan rekap belajar sa
 - ☕ Java
 
 ## 📖 Materi
-- OOP (Pertemuan 1 - 7 )
-- Functional (Pertemuan 9 - 14)
+- OOP (Pertemuan 1 - 9)
+- Functional (Pertemuan 11 - 14)
